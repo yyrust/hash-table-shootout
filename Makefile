@@ -1,5 +1,6 @@
 CXX=clang++
-CXX_FLAGS=-O3 -march=native -std=c++14 -DNDEBUG
+DEPENDENCIES=-I3rd_party/sparsepp -I3rd_party/flat_hash_map -I3rd_party/hopscotch-map -I3rd_party/robin-map -I3rd_party/sparse-map -I3rd_party/ordered-map -I3rd_party/emilib
+CXX_FLAGS=-O3 -march=native -std=c++14 -DNDEBUG $(DEPENDENCIES)
 
 all: build/std_unordered_map build/boost_unordered_map build/google_sparse_hash_map build/google_dense_hash_map build/google_dense_hash_map_mlf_0_9 build/qt_qhash build/spp_sparse_hash_map build/emilib_hash_map build/ska_flat_hash_map build/ska_flat_hash_map_power_of_two build/tsl_hopscotch_map build/tsl_hopscotch_map_mlf_0_5 build/tsl_hopscotch_map_store_hash build/tsl_robin_map build/tsl_robin_map_mlf_0_9 build/tsl_robin_map_store_hash build/tsl_robin_pg_map build/tsl_sparse_map build/tsl_ordered_map
 

@@ -1,0 +1,21 @@
+[submodule "3rd_party/sparsepp"]
+	path = 3rd_party/sparsepp
+	url = https://github.com/greg7mdp/sparsepp.git
+[submodule "3rd_party/flat_hash_map"]
+	path = 3rd_party/flat_hash_map
+	url = https://github.com/skarupke/flat_hash_map.git
+[submodule "3rd_party/hopscotch-map"]
+	path = 3rd_party/hopscotch-map
+	url = https://github.com/Tessil/hopscotch-map.git
+[submodule "3rd_party/robin-map"]
+	path = 3rd_party/robin-map
+	url = https://github.com/Tessil/robin-map.git
+[submodule "3rd_party/sparse-map"]
+	path = 3rd_party/sparse-map
+	url = https://github.com/Tessil/sparse-map.git
+[submodule "3rd_party/ordered-map"]
+	path = 3rd_party/ordered-map
+	url = https://github.com/Tessil/ordered-map.git
+[submodule "3rd_party/emilib"]
+	path = 3rd_party/emilib
+	url = https://github.com/emilk/emilib.git
